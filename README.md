@@ -1,4 +1,4 @@
-# Hugin Sensor Platform
+# Hugin
 
 > An open-source modular sensor platform for Home Assistant.
 
@@ -11,22 +11,21 @@
 
 ## Overview
 
+Hugin is an open-source project for developing a modular sensor platform for Home Assistant.
 
-Hugin is an open-source project that aims to develop a modular sensor platform for Home Assistant.
+The current focus is the development of a fully local room sensor based on ESP32 and ESPHome.
 
-The platform is based on a common hardware and software architecture where each sensor node shares the same foundation while allowing different sensor configurations depending on its intended purpose.
+Both the hardware and firmware are designed with modularity in mind, allowing future sensor variants to reuse the same core architecture.
 
-The project follows a local-first philosophy and is intended to be reproducible, maintainable and extensible.
-
-Current development focuses on the first multi-purpose room sensor.
+Hugin emphasizes simplicity, reproducibility and long-term maintainability while remaining entirely independent of cloud services.
 
 ---
 
 ## Why Hugin?
 
-Most commercial smart home sensors are tightly coupled to proprietary ecosystems, making them difficult to modify, extend and integrate outside their intended platforms.
+Many commercial smart home sensors are tightly coupled to proprietary ecosystems, making them difficult to modify, extend and integrate outside their intended platforms.
 
-Hugin aims to provide an open, modular and fully local alternative that can evolve over time while remaining easy to reproduce and maintain.
+Hugin aims to provide an open, modular and fully local alternative that is easy to reproduce, maintain and extend.
 
 ---
 
@@ -34,17 +33,17 @@ Hugin aims to provide an open, modular and fully local alternative that can evol
 
 Planning and architecture phase.
 
-First hardware prototype currently under development.
+The first hardware prototype is currently under development.
 
 ---
 
 ## Design Philosophy
 
-Hugin is built around a few core principles:
+Hugin is guided by a few core principles:
 
 - Local-first operation
-- Modular hardware
-- Open-source hardware and software
+- Modular hardware and software
+- Open-source development
 - Reproducible designs
 - Long-term maintainability
 - Clear documentation
@@ -60,28 +59,29 @@ The initial version is planned to provide:
 - Ambient temperature monitoring
 - Relative humidity monitoring
 - Ambient light monitoring
-- Home Assistant integration
-- Local operation
+
 - Wi-Fi connectivity
 - OTA firmware updates
+- Native Home Assistant integration
+- Local operation
 
 ---
 
 ## Version 1.0 Scope
 
-Version 1.0 aims to deliver a complete and reproducible room sensor platform, including:
+Version 1.0 focuses on delivering a complete room sensor with:
 
-- Hardware prototype
+- Working hardware prototype
 - ESPHome firmware
 - Home Assistant integration
 - Assembly documentation
 - Functional testing
-- Public GitHub documentation
+- Public project documentation
 
 ---
 
 ## Documentation
 
-Detailed technical documentation is available in the `/docs` directory and will expand as the project evolves.
+Detailed technical documentation is available in the `docs` directory.
 
-
+---
